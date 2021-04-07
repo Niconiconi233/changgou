@@ -1,0 +1,17 @@
+.idea
+*.iml
+.apt_generated/*
+.classpath
+.project
+.springBeans
+.class
+.war
+.zip
+.rar
+*/target/*
+pom-war.xml
+/bin/.settings/*
+/bin/*
+*.iml
+logs
+target
