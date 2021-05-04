@@ -19,6 +19,7 @@ public class BaseExceptionController {
     @ExceptionHandler(value = Exception.class)
     @ResponseBody
     public Result exception(Exception e) {
+        e.printStackTrace();
         return new Result(false, StatusCode.ERROR, e.getMessage());
     }
 
