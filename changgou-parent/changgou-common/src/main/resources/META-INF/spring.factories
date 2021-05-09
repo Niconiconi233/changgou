@@ -1,2 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-controller.BaseExceptionController  
+controller.BaseExceptionController,\
+entity.IdWorker
